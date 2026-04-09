@@ -6,6 +6,7 @@ A super simple FastAPI application that allows students to view and sign up for 
 
 - View all available extracurricular activities
 - Sign up for activities
+- Edit the activity catalog in `activities.json` instead of Python code
 
 ## Getting Started
 
@@ -37,6 +38,8 @@ A super simple FastAPI application that allows students to view and sign up for 
 The application uses a simple data model with meaningful identifiers:
 
 1. **Activities** - Uses activity name as identifier:
+
+   The activity catalog lives in `activities.json`, making it easier for teachers to update.
 
    - Description
    - Schedule
